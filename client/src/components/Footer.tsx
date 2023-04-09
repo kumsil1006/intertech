@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Wrapper = styled.div`
-  width: 100vw;
+  width: calc(100vw - 60px);
   height: 300px;
   background-color: #545454;
   color: #FAFAFA;
