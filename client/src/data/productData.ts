@@ -7,36 +7,36 @@ import deepFryer from '@images/deep-fryer.jpg';
 import frits from '@images/frits.jpg';
 import cyber from '@images/cyber.jpg';
 
-import IGImage from '@images/IG 사진.jpg';
-import IGDesign from '@images/IG 도면.jpg';
-import IGSpec from '@images/IG-사양.jpg';
+import IGImage from '@images/IGImage.jpg';
+import IGDesign from '@images/IG design.jpg';
+import IGSpec from '@images/IG-spec.jpg';
 
 import IGBImage from '@images/igb1.jpg';
-import IGBDesign from '@images/IGB 도면.jpg';
-import IGBSpec from '@images/IGB-사양.jpg';
+import IGBDesign from '@images/IGB design.jpg';
+import IGBSpec from '@images/IGB-spec.jpg';
 
 import IOImage from '@images/io1.jpg';
-import IODesign from '@images/IO 도면.jpg';
-import IOSpec from '@images/IO-사양.jpg';
+import IODesign from '@images/IODesign.jpg';
+import IOSpec from '@images/IO-spec.jpg';
 
 import IgmImage from '@images/ibm1.jpg';
-import IgmDesign from '@images/IGM 도면.jpg';
-import IGMSpec from '@images/IGM-사양.jpg';
+import IgmDesign from '@images/IGMDesign.jpg';
+import IGMSpec from '@images/IGM-spec.jpg';
 
-import 솔레노이드1 from '@images/솔레노이드1.jpg';
-import 솔레노이드2 from '@images/솔레노이드2.jpg';
-import 솔레노이드3 from '@images/솔레노이드3.jpg';
+import 솔레노이드1 from '@images/solenoid1.jpg';
+import 솔레노이드2 from '@images/solenoid2.jpg';
+import 솔레노이드3 from '@images/solenoid3.jpg';
 
-import ControllerImage from '@images/컨트롤러1.jpg';
+import ControllerImage from '@images/controller1.jpg';
 
-import 방폭1 from '@images/방폭1.jpg';
-import 방폭2 from '@images/방폭2.jpg';
-import 방폭3 from '@images/방폭3.jpg';
+import 방폭1 from '@images/bangpok1.jpg';
+import 방폭2 from '@images/bangpok2.jpg';
+import 방폭3 from '@images/bangpok3.jpg';
 
-import 컨트롤러사양 from '@images/컨트롤러-사양.jpg';
-import 인덕션사양 from '@images/인덕션-사양.jpg';
-import 인덕션사진 from '@images/인덕션.png';
-import 방폭사양 from '@images/방폭-사양.jpg';
+import 컨트롤러사양 from '@images/controller-spec.jpg';
+import 인덕션사양 from '@images/induction-spec.jpg';
+import 인덕션사진 from '@images/induction.png';
+import 방폭사양 from '@images/bangpok-spec.jpg';
 
 import kitchen from '@images/kitchen.jpg';
 
