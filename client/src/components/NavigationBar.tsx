@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from '@emotion/styled';
 import { Box } from '@mui/material';
-
-import Logo from '../assets/logo.png';
 import { Link } from 'react-router-dom';
+
+import Logo from '@images/logo.png';
 
 const LogoButton = styled.img`
   max-width: 200px;
@@ -21,14 +21,16 @@ const LinkContainer = styled.div`
   }
   a:hover {
     color: #BBB8B2;
-    border-bottom: 2px solid #545454;
+    border-bottom: 3px solid #545454;
   }
 `;
 
 const Wrapper = styled.div`
-  width: 100vw;
+  width: 99vw;
   height: max-content;
   position: fixed;
+  z-index: 10000;
+  background-color: white;
 `;
 
 const NavigationBar = () => {
@@ -39,7 +41,7 @@ const NavigationBar = () => {
           <LogoButton src={Logo} alt="Intertech Logo" loading="lazy" />
         </Link>
         <LinkContainer>
-          <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly', gap: 2, alignItems: 'center' }}>
+          <Box sx={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly', alignItems: 'center' }}>
             <Link to="/">HOME</Link>
             <Link to="/history">HISTORY</Link>
             <Link to="/about">ABOUT</Link>

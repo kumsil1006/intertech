@@ -13,15 +13,14 @@ const Wrapper = styled.div`
   flex-direction: column;
   justify-content: space-evenly;
   padding-bottom: 10px;
+  margin-top: 100px;
 
   a {
     color: #FAFAFA;
   }
 `;
 
-const Title = styled.h2`
-
-`;
+const Title = styled.h2``;
 
 const TextHeader = styled.span`
   width: 50px;

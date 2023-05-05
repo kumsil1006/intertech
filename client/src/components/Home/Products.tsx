@@ -1,12 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React, { memo, useEffect, useState } from 'react';
 import styled from '@emotion/styled';
 
 import { productList } from '@data/productData';
 import ItemMainImage from '@components/Home/ItemMainImage';
+import { Link } from 'react-router-dom';
 
 const Title = styled.h1`
   text-align: center;
-  font-weight: 500;
+  font-weight: 700;
 `;
 
 const Item = styled.div`
@@ -21,7 +22,7 @@ const ItemTitle = styled.p`
 
 const ItemList = styled.div`
   display: flex;
-  height: 460px;
+  height: 360px;
   flex-wrap: wrap;
   justify-content: space-between;
   background-color: #f9f9f9;
@@ -40,15 +41,16 @@ const Products = () => {
     };
   }, []);
 
-
   return (
     <div>
       <Title>PRODUCTS</Title>
       <ItemList>
         {productList.map(product => (
           <Item key={product.categoryName}>
-            <ItemMainImage imageSrcList={product.mainImageList} time={time}/>
-            <ItemTitle>{product.categoryName}</ItemTitle>
+            <Link to={`/product/${product.categoryName}`}>
+              <ItemMainImage imageSrcList={product.mainImageList} time={time}/>
+              <ItemTitle>{product.categoryName}</ItemTitle>
+            </Link>
           </Item>
         ))}
       </ItemList>
@@ -56,4 +58,4 @@ const Products = () => {
   );
 };
 
-export default Products;
+export default memo(Products);

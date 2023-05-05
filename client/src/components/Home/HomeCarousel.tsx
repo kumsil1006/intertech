@@ -1,7 +1,6 @@
 import React, { memo } from 'react';
-import Carousel from 'react-material-ui-carousel';
-import { Paper } from '@mui/material';
 import styled from '@emotion/styled';
+import CommonCarousel from '@components/common/CommonCarousel';
 
 interface ImageWithFontColor {
   src: string;
@@ -23,14 +22,11 @@ const CompanyName = styled.h2`
   color: ${props => props.color ? props.color : '#c1c1c1'};
 `;
 
-const HomeCarousel = ({imageList}: Props) => {
+const HomeCarousel = ({ imageList }: Props) => {
   return (
-    <Carousel>
-      {imageList.map(image => <Paper key={image.src}>
-        <img src={image.src} alt='intertech'/>
-        <CompanyName key="companyName" color={image.color}>INTER TECH</CompanyName>
-      </Paper>)}
-    </Carousel>
+    <CommonCarousel imageList={imageList.map(image => image.src)}>
+      <CompanyName key="companyName" >INTER TECH</CompanyName>
+    </CommonCarousel>
   );
 };
 

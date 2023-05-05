@@ -10,12 +10,12 @@ import * as styles from './index.css';
 
 const globalStyle = {
   'html, body': {
-    'font-family': ['Roboto', '"Noto Sans KR"'].join(','),
-    'font-weight': '600',
+    'fontFamily': ['Roboto', '"Noto Sans KR"'].join(','),
+    'fontWeight': '600',
     'margin': 0
   },
   'a': {
-    'text-decoration': 'none'
+    'textDecoration': 'none'
   }
 };
 
@@ -27,7 +27,7 @@ const Wrapper = styled.div`
 
 const ContentsWrapper = styled.div`
   position: absolute;
-  top: 300px;
+  top: 100px;
 `;
 
 const App = () => {

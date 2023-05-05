@@ -8,12 +8,15 @@ import Home4 from '@images/home4_1.png';
 
 import Products from '@components/Home/Products';
 import Location from '@components/Home/Location';
-import HomeCarousel from '@components/Home/Carousel';
+import HomeCarousel from '@components/Home/HomeCarousel';
 
 const Wrapper = styled.div`
   width: 100vw;
   height: 1500px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
 
   img {
     width: 100%;
