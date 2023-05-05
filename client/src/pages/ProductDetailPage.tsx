@@ -46,7 +46,7 @@ const ProductDetailPage = () => {
   const { name , imageList } = productDetail;
   const firstImage = imageList[0];
   const remainImage = imageList.filter((image, index) => index !== 0);
-  console.log(firstImage, remainImage);
+  
   return (
     <Wrapper>
       <CategoryName>{name}</CategoryName>

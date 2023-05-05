@@ -9,6 +9,8 @@ import ProductPage from '@pages/ProductPage';
 import ErrorPage from '@pages/ErrorPage';
 import ProductDetailPage from '@pages/ProductDetailPage';
 import AboutPage from '@pages/AboutPage';
+import Products from '@components/Home/Products';
+import Location from '@components/Home/Location';
 
 const router = createBrowserRouter([
   {
@@ -19,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <HomePage />
+      },
+      {
+        path: 'product',
+        element: <Products />
       },
       {
         path: 'product/:productName',
@@ -35,6 +41,10 @@ const router = createBrowserRouter([
       {
         path: 'about',
         element: <AboutPage />,
+      },
+      {
+        path: 'map',
+        element: <Location />,
       },
     ]
   }

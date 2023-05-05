@@ -48,7 +48,6 @@ const NavigationBar = () => {
             <Link to="/history">HISTORY</Link>
             <Link to="/about">ABOUT</Link>
             <Link to="/product">PRODUCT</Link>
-            <Link to="/announce">공지사항</Link>
             <Link to="/map">오시는 길</Link>
           </Box>
         </LinkContainer>

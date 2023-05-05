@@ -8,7 +8,7 @@ interface Props {
 
 const Image = styled.img`
   max-width: 100%;
-  max-height: 280px;
+  max-height: 180px;
 `;
 
 const ItemMainImage = ({imageSrcList, time} : Props) => {
