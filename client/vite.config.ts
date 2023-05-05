@@ -10,8 +10,9 @@ export default defineConfig({
       '@components': resolve(__dirname, './src/components'),
       '@container': resolve(__dirname, './src/container'),
       '@images': resolve(__dirname, './src/assets/images'),
+      '@data': resolve(__dirname, './src/data'),
       '@pdf': resolve(__dirname, './src/assets/pdf'),
-      '@page': resolve(__dirname, './src/page'),
+      '@pages': resolve(__dirname, './src/pages'),
       '@util': resolve(__dirname, './src/util'),
     },
   }
