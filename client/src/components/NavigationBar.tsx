@@ -26,7 +26,9 @@ const LinkContainer = styled.div`
 `;
 
 const Wrapper = styled.div`
-  width: 99vw;
+  width: 100vw;
+  width: 100vw;
+  margin: 0;
   height: max-content;
   position: fixed;
   z-index: 10000;
