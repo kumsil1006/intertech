@@ -8,6 +8,7 @@ import HomePage from '@pages/HomePage';
 import ProductPage from '@pages/ProductPage';
 import ErrorPage from '@pages/ErrorPage';
 import ProductDetailPage from '@pages/ProductDetailPage';
+import AboutPage from '@pages/AboutPage';
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: 'history',
         element: <HistoryPage />,
+      },
+      {
+        path: 'about',
+        element: <AboutPage />,
       },
     ]
   }
