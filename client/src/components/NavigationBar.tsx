@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 import { Box } from '@mui/material';
 import { Link } from 'react-router-dom';
 
-import Logo from '@images/logo.png';
+import Logo from '@images/logo.jpg';
 
 const LogoButton = styled.img`
   max-width: 200px;
