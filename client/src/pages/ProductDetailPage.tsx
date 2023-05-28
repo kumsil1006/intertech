@@ -17,17 +17,21 @@ const ImageWrapper = styled.div`
   flex-direction: column;
   max-width: 100vh;
   align-items: center;
+  margin-inline: 50px;
 `;
 
 const LeftImageWrapper = styled.div``;
+
 const RightImageWrapper = styled.div`
   display: flex;
-  max-width: 100vw;
-  gap: 10px;
+  width: 100%;
+  gap: 20px;
+  align-items: center;
 `;
 
 const Image = styled.img`
-  max-width: 48vw;
+  max-width: 45vw;
+  max-height: 300px;
 `;
 
 const getProductDetail = (categoryName: string, subCategory: string) => {
